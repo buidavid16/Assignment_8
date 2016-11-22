@@ -1,0 +1,98 @@
+/*
+  Name:              David Bui
+  Email address:     David_Bui@student.uml.edu
+  Affiliation:       Student at UMass Lowell in course COMP 4610 GUI Programming I
+  Short Description: This is the CSS file for this assignment. It makes everything
+                     look pretty and adjusts some minor formatting.
+*/
+
+/* Sets background color to silver */
+body {
+  background-color: silver;
+}
+
+/* Establishes properties for multiplication table */
+fieldset {
+  background: yellow;
+  color: blue;
+  position: relative;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+legend {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: maroon;
+}
+
+/* Formats margin for overall multiplication table */
+#input {
+  margin-left: 10%;
+}
+
+/* Sets margin for individual input boxes */
+#rowMins, #rowMaxs, #columnMins, #columnMaxs {
+  margin: 10px;
+}
+
+/* Adjusting left margin for rows */
+#rowMins, #rowMaxs {
+  margin-left: 4.5%;
+}
+
+/* Sets properties for the table id */
+#table
+{
+    position: relative;
+    left: 30px;
+}
+
+/* Sets properties for the actual table itself */
+table
+{
+  background-color: white;
+  border: 10px solid blue;
+  margin: 0 40%;
+  font-size: 3em;
+}
+
+/* Sets properties for submit button */
+#submit
+{
+  margin-left: 40%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Sets properties for first row and column when no information is present */
+.empty
+{
+  background: purple;
+}
+
+/* Sets properties for first row when inputs for minimum to maximum are present */
+.firstRow
+{
+  border-bottom: 5px solid purple;
+  border-right: 2px solid purple;
+}
+
+/* Sets properties for first column when inputs for minimum to maximum are present */
+.firstColumn
+{
+  border-right: 5px solid orange;
+  border-top: 2px solid orange
+}
+
+/* Sets properties for rows and columns between minimum and maximum values */
+.middle
+{
+  border: 1px solid black;
+  margin: 0;
+}
